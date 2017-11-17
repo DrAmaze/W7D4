@@ -1,5 +1,11 @@
 Rails.application.routes.draw do
   namespace :api do
+    get 'items/update'
+  end
+
+  get 'items/update'
+
+  namespace :api do
     get 'pokemon/index'
   end
 
